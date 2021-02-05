@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lane's Amazing Website</title>
+        <style>
+            body {
+                background: #D4BD8A;
+                color: rgb(51, 50, 50);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(51, 50, 50);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                border-radius: 15px;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 243, 224);
+                border-radius: 15px;
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px #D4BD8A solid;
+                border-radius: 15px;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+</style>
+    </head>
+    <body>
+        <!--All contnet goes here-->
+        <div id="all-contents">
+            <nav>
+                <h1>Lane's Amazing Website</h1>
+                <ul id="nav-ul">
+                    <li class="nav-li">
+                        <a herf="index.html">Home</a>
+                    </li>
+                    <li class="nav-li">
+                        <a herf="portfolio.html">Portfolio</a>
+                    </li>
+                </ul>
+            </nav>
+            <main>
+                <!--Sidebar section-->
+                <div class="sidebar">
+                    <img class="sidebar-img" src="https://scontent-dfw5-1.cdninstagram.com/v/t51.2885-19/s150x150/106006664_626547991543493_8666843675679145641_n.jpg?_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_ohc=6SGH76FB73IAX9Rt5rP&tp=1&oh=f8c0c51e342a52dafb26310934dddedf&oe=604356F2">
+                </div>
+                <!--Content section-->
+                <div class="content">
+                    <h2>Lane Lambert</h2>
+                    <p>Studnet at LAVCA</p>
+                    <!--Interests section-->
+                    <div id="interests">
+                        <h3>Interest</h3>
+                        <ul>
+                            <li>Watching Movies, Particualrly Marvel</li>
+                            <li>3D Animantion</li>
+                            <li>Geaux Saints</li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
